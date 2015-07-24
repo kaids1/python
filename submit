@@ -1,10 +1,10 @@
 #!/bin/sh
-echo "Please Enter submit file's name...(five files)"
+echo "Please Enter11 submit file's name...(five files)"
 read file1 file2 file3 file4 file5 
 git add $file1 $file2 $file3 $file4 $file5
 
 echo "Please Enter change content..."
-read content
+read content11
 git commit -m "$content"
 
 echo -e "\033[31;36m   commit is succeed...\033[0m"
